@@ -1,0 +1,4 @@
+# classic cipher 1
+> MTHJ{CWTNXRJCUBCGXGUGXWREXIPOYAOEYFIGXWRXCHTKHFCOHCFDUCGTXZOHIXOEOWMEHZO}
+
+根據提示給出 `substitution cipher`，用工具即可解出 flag

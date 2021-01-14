@@ -1,5 +1,6 @@
 # r u kidding
-Cipher = `EKZF{Hs'r snnn dzrx, itrs bzdrzq bhogdq}`  
+> EKZF{Hs'r snnn dzrx, itrs bzdrzq bhogdq}
+
 看的出來是[凱撒密碼(Caesar cipher)](https://zh.wikipedia.org/wiki/%E5%87%B1%E6%92%92%E5%AF%86%E7%A2%BC)  
 找工具跑出每個可能：
 1. DJYE{Gr'q rmmm cyqw, hsqr aycqyp agnfcp}
@@ -28,4 +29,4 @@ Cipher = `EKZF{Hs'r snnn dzrx, itrs bzdrzq bhogdq}`
 24. GMBH{Ju't uppp fbtz, kvtu dbftbs djqifs}
 25. FLAG{It's tooo easy, just caesar cipher}
 
-`FLAG{It's tooo easy, just caesar cipher}` 明顯是 Flag
+`FLAG` 開頭的明顯是我們要的
