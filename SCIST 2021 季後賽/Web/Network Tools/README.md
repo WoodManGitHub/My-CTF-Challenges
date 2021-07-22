@@ -1,7 +1,7 @@
 # Network Tools
 
 DNS 頁面有一個 select type  
-將其中一個選項改成 `A && cat /flag #  `
+將其中一個選項改成 `A && cat /flag #`  
 蹦，得到 Flag
 
 ### 後紀
