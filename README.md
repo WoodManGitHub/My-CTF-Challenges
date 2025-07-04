@@ -1,7 +1,7 @@
-# README
-或多或少，自己練習題目或 CTF 比賽的 Write-Up
+# My CTF Challenges
+More or less, practicing problems on my own or reading CTF competition write-ups.
 
-## 紀錄
+## Lists
 - 2025
   - [Google CTF](https://capturetheflag.withgoogle.com/scoreboard/what%20happened)
 - 2021
