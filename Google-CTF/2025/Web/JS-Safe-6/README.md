@@ -1,7 +1,7 @@
 # JS Safe 6.0
 在解的過程中只要加上另一位好友的 Payload 、註解一個 `if` 以及解決 CSP 長度問題，就可以取得 Flag  
 後來參考別人的 Write-up 才解開題目，希望明年有辦法解開  
-Co-Worker: @Jimchen5209
+Co-Worker: [@jimchen5209](https://github.com/jimchen5209)
 
 ## Summary
 You stumbled upon someone's "JS Safe" on the web. It's a simple HTML file that can store secrets in the browser's localStorage. This means that you won't be able to extract any secret from it (the secrets are on the computer of the owner), but it looks like it was hand-crafted to work only with the password of the owner…
@@ -10,7 +10,7 @@ You stumbled upon someone's "JS Safe" on the web. It's a simple HTML file that c
 - js_safe_6.html
 
 ## File Analysis
-使用瀏覽器開啟後可以看到一個酷炫畫面，並告訴你應該怎麼使用
+使用 Chrome 瀏覽器開啟後可以看到一個酷炫畫面，並告訴你應該怎麼使用
 ![](./images/homepage.png)
 - Open the page in Chrome (the only supported browser)
 - Open Dev Tools and type:
@@ -41,6 +41,7 @@ The character U+2003 is invisible. Adjust settings
 
 #### store
 ![](./images/store.png)
+
 老實說這邊不太重要，畢竟題目說明也有提到 Flag 不在你電腦上
 
 ## Challenge Solving
@@ -103,9 +104,8 @@ window.check // Checks password
 
 發現這段似乎還會針對 `check` 進行長度的檢查，所以可以跟之前一樣修改掉
 ```diff
-< Function`[0].step; if (window.step == 0 || check.toString().length !== 914) while(true) debugger; // Aﾠcooler wayﾠto eval```
-
-> Function`[0].step; if (window.step == 0 || check.toString().length === false) while(true) debugger; // Aﾠcooler wayﾠto eval```
+- Function`[0].step; if (window.step == 0 || check.toString().length !== 914) while(true) debugger; // Aﾠcooler wayﾠto eval```
++ Function`[0].step; if (window.step == 0 || check.toString().length === false) while(true) debugger; // Aﾠcooler wayﾠto eval```
 ```
 
 最後修改 `while (!window.success) { ... }` 中的內容，將 Flag 的每個字元輸出
