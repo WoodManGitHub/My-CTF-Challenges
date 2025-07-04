@@ -1,5 +1,5 @@
 # JS Safe 6.0
-在解的過程中只要加上另一位好友的 Payload 與註解調一個檢查，就可以取得 Flag  
+在解的過程中只要加上另一位好友的 Payload 與註解一個 `if`，就可以取得 Flag  
 後來參考別人的 Write-up 才解開題目，希望明年有辦法解開
 
 ## Summary
@@ -52,9 +52,8 @@ The character U+2003 is invisible. Adjust settings
 ![](./images/escape_anti_debugger.png)
 
 改完重新整理後得到新的錯誤
-```
-Refused to execute inline script because it violates the following Content Security Policy directive: "script-src 'sha256-P8konjutLDFcT0reFzasbgQ2OTEocAZB3vWTUbDiSjM=' 'sha256-eDP6HO9Yybh41tLimBrIRGHRqYoykeCv2OYpciXmqcY=' 'unsafe-eval'". Either the 'unsafe-inline' keyword, a hash ('sha256-nArgG/Kg8kEACs2owqJeoSo4GHMLDdMGC8GlH/i+HGg='), or a nonce ('nonce-...') is required to enable inline execution.
-```
+> Refused to execute inline script because it violates the following Content Security Policy directive: "script-src 'sha256-P8konjutLDFcT0reFzasbgQ2OTEocAZB3vWTUbDiSjM=' 'sha256-eDP6HO9Yybh41tLimBrIRGHRqYoykeCv2OYpciXmqcY=' 'unsafe-eval'". Either the 'unsafe-inline' keyword, a hash ('sha256-nArgG/Kg8kEACs2owqJeoSo4GHMLDdMGC8GlH/i+HGg='), or a nonce ('nonce-...') is required to enable inline execution.
+
 依據錯誤訊息，將 `Content-Security-Policy` 兩個 sha256 刪除並修改為
 ```html
 <meta http-equiv="Content-Security-Policy" id="c" content="script-src 'unsafe-inline' 'unsafe-eval'">
