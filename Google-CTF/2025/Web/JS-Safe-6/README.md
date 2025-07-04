@@ -140,6 +140,8 @@ if (flag[0] == pool[j % pool.length] && (window.step < 1000000))
 
 看起來不太對
 
+交棒給 [@jimchen5209](https://github.com/jimchen5209)
+
 遇事不決決定在 `check()` 的一個地方新增一個斷點來「偵錯」，接著發現這函式不管怎麼戳都新增不了斷點，只能新增在剛剛加上的那一行，儘管加上去了，實際執行的時候卻發現那個斷點直接被跳過了
 
 ![](./images/cant_add_breakpoint.png)
