@@ -7,7 +7,7 @@ by jimchen5209
 
 ## Description
 
-> I can only see 怪獣 in my nightmare...
+> I can only see 怪獣 in my nightmare...  
 > Wrap flag in `osu{...}` to submit.
 
 ## Files Provided

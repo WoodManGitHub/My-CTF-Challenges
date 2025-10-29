@@ -4,7 +4,7 @@ by jimchen5209
 
 ## Summary
 
-> Can you SS APPEND? Do not use Auto to cheat...
+> Can you SS APPEND? Do not use Auto to cheat...  
 > Note: No Mod only. Do not add any modes.
 >
 > `nc ss-me.challs.sekai.team 1337`

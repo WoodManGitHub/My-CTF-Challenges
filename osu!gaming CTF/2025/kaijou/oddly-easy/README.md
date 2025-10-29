@@ -9,8 +9,8 @@ It's kind of brute forcing, but I can't find a better way to solve this Morse co
 
 ## Summary
 
-> The EASY diff looks so easy, surely it's not hiding anything?
-> Wrap the flag in `osu{}`. All lowercase.
+> The EASY diff looks so easy, surely it's not hiding anything?  
+> Wrap the flag in `osu{}`. All lowercase.  
 > Note: Flag length (without `osu{}`) is 10.
 
 ## Files Provided
