@@ -12,13 +12,13 @@ by jimchen5209
 ## Files Provided
 
 - 2454199 Sakuzyo feat. Hatsune Miku - Kaijuu ni Naritai.osz
-  > Downloaded from https://osu.ppy.sh/beatmapsets/2454199 provided in the sanity-check challenge.
+  > Downloaded from https://osu.ppy.sh/beatmapsets/2454199 provided in the [sanity-check](../sanity-check/README.md) challenge.
 
 ## File Analysis
 
-It's an osu! beatmap pack, containing one beatmap of 7.5 stars difficulty.
+It's an osu! beatmap pack, containing difficulty `APPEND`(★7.53) .
 
-You need a replay file with ss score for this beatmap, a 7.5 star map, without any mod.
+You need a replay file with SS score for this beatmap, a ★7.53 map, without any mod.
 
 ![](images/PVrPS4wLku0sZJQ-H7-H5NFp3HtsDN3xEGuZVqv5lVo=.png)
 
