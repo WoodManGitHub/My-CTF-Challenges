@@ -18,7 +18,7 @@ The 10 locations are:
 1. loner
 
    ![](images/mzekaWZgCfGUMwVNrrDQLv-t436enhcPr4avIDlx7uA=.png)
-   * Location: 下北澤 SHELTER
+   * Location: Shimokitazawa SHELTER
 
      https://maps.app.goo.gl/jSvn3U2n4vb3gzL8A
 
@@ -42,7 +42,7 @@ The 10 locations are:
 4. ghost
 
    ![](images/eymZ0tVPVpTFByS45kxJOcjA7d2IISwhwOEQPz-S0Q4=.png)
-   * Location: The intersection near 折居 station
+   * Location: The intersection near Orii Station
 
      https://maps.app.goo.gl/VhrkZphM8kj5efAq7
 
@@ -50,7 +50,7 @@ The 10 locations are:
 5. bench
 
    ![](images/y63P30R85in718cABU_1F_Dz4dChiJDmyr2qCo6yPso=.png)
-   * Location: 平等院
+   * Location: Byōdo-in Temple
 
      https://maps.app.goo.gl/4VYfb96i6HHcGdEd9
 
@@ -83,7 +83,7 @@ The 10 locations are:
 9. technology
 
    ![](images/oKrMEMkY3jXPxIbOFX8Uya_yCoOiS65LAPcCsAVugJI=.png)
-   * Location: 長崎 Bio Park
+   * Location: Nagasaki Bio Park
 
      https://maps.app.goo.gl/hX3T25dLBMxHDzvWA
 
@@ -91,7 +91,7 @@ The 10 locations are:
 10. pumpitup
 
     ![](images/wsf08kHrlw91nyQ-XV40VeofqwVX85a-Y-AMxWog8u4=.png)
-    * Location: The entrance to the public parking lot at the intersection of Улаанбаатар Зайсан толгой.
+    * Location: The entrance to the public parking lot at the intersection of Ulaanbaatar Zaisan Monument.
 
       https://maps.app.goo.gl/1oXn9NWtZ893wyRD9
 
