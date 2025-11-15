@@ -2,7 +2,7 @@
 
 by jimchen5209
 
-The start of the kaijou series, you'll need this in all kaijou challenges.
+The start of the kaijuu series, you'll need this in all kaijuu challenges.
 
 ## Summary
 
